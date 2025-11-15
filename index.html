@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prada Dropshipping Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Prada is a modern dropshipping store offering stylish products for everyday dreamers.">
+    <!-- Basic styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <h1>Prada</h1>
+        <p class="tagline">Dropshipping for everyday dreamers</p>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="hero" class="hero" aria-label="Featured promotion">
+            <div class="hero-text">
+                <h2>Upgrade your space, one piece at a time.</h2>
+                <p>LED lights, modern décor, and minimalist accessories shipped directly to your door.</p>
+                <button type="button" class="btn-primary" onclick="alert('This is a demo store – cart not yet active.')">
+                    Shop Featured Collection
+                </button>
+            </div>
+        </section>
+
+        <section id="products" class="section">
+            <h2>Featured Products</h2>
+            <p class="section-description">Carefully selected items to give your room a clean, modern aesthetic.</p>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="LED strip lights illuminating a bedroom wall">
+                    <h3>Neon Aura LED Strips</h3>
+                    <p class="price">$29.99</p>
+                    <p>Flexible LED strips with multiple color modes and remote control.</p>
+                    <button type="button" class="btn-secondary" aria-label="Add Neon Aura LED Strips to cart">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Minimalist desk lamp on a modern desk">
+                    <h3>Prada Glow Desk Lamp</h3>
+                    <p class="price">$39.99</p>
+                    <p>Sleek, adjustable lamp designed for late-night grinding and studying.</p>
+                    <button type="button" class="btn-secondary" aria-label="Add Prada Glow Desk Lamp to cart">
+                        Add to Cart
+                    </button>
+                </article>
+
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Wall art above a modern couch in a living room">
+                    <h3>Dreamers Wall Art Set</h3>
+                    <p class="price">$49.99</p>
+                    <p>Three-piece art set that adds a city-penthouse vibe to any room.</p>
+                    <button type="button" class="btn-secondary" aria-label="Add Dreamers Wall Art Set to cart">
+                        Add to Cart
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Prada</h2>
+            <p>
+                Prada is a student-built dropshipping concept store focused on modern, affordable room upgrades.
+                The goal is to make it simple to create a space that feels motivating, clean, and stylish.
+            </p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Have questions about an order or product? Use the form below.</p>
+
+            <form aria-label="Contact form">
+                <div class="form-group">
+                    <label for="name">Name<span aria-hidden="true">*</span></label>
+                    <input id="name" name="name" type="text" required aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email<span aria-hidden="true">*</span></label>
+                    <input id="email" name="email" type="email" required aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message<span aria-hidden="true">*</span></label>
+                    <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Prada Dropshipping Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
