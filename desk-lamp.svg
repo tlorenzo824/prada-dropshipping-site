@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="Desk lamp">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b0b10"/>
+      <stop offset="1" stop-color="#12121a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0" stop-color="#9b7cff"/>
+      <stop offset="1" stop-color="#00ffd2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <circle cx="820" cy="240" r="140" fill="rgba(155,124,255,.10)"/>
+  <circle cx="820" cy="240" r="90" fill="rgba(0,255,210,.10)"/>
+  <path d="M780 300 L640 520" stroke="#f3f3f7" stroke-width="14" stroke-linecap="round"/>
+  <path d="M640 520 L900 520" stroke="#f3f3f7" stroke-width="14" stroke-linecap="round"/>
+  <path d="M730 290 C760 200, 900 200, 920 290" fill="none" stroke="url(#glow)" stroke-width="14" stroke-linecap="round"/>
+  <text x="70" y="110" font-family="system-ui,Segoe UI,Arial" font-size="46" font-weight="800" fill="#f3f3f7">Prada Glow Desk Lamp</text>
+  <text x="70" y="160" font-family="system-ui,Segoe UI,Arial" font-size="22" fill="#b6b6c7">Adjustable brightness • Minimalist design</text>
+</svg>

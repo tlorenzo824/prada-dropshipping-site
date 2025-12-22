@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="LED strip lights">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b0b10"/>
+      <stop offset="1" stop-color="#12121a"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" x2="1">
+      <stop offset="0" stop-color="#9b7cff"/>
+      <stop offset="1" stop-color="#00ffd2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <path d="M120 520 C 260 420, 460 620, 620 520 S 980 420, 1080 520" fill="none" stroke="url(#neon)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M140 530 C 290 440, 470 610, 620 540 S 960 430, 1060 540" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="10" stroke-linecap="round"/>
+  <text x="70" y="110" font-family="system-ui,Segoe UI,Arial" font-size="46" font-weight="800" fill="#f3f3f7">Neon Aura LED Strips</text>
+  <text x="70" y="160" font-family="system-ui,Segoe UI,Arial" font-size="22" fill="#b6b6c7">Multi-color modes • Remote control • Easy install</text>
+</svg>
